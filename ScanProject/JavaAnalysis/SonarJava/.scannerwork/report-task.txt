@@ -1,0 +1,6 @@
+projectKey=Java_TR
+serverUrl=http://localhost:9000
+serverVersion=9.8.0.63668
+dashboardUrl=http://localhost:9000/dashboard?id=Java_TR
+ceTaskId=AYtmh_1ZS4sRV85Zxvta
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYtmh_1ZS4sRV85Zxvta
