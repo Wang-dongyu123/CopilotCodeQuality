@@ -36,7 +36,7 @@
 - ***results/Complexity.xlsx:***     三种语言代码建议的复杂度以及执行状态统计
 - ***results/JavaMeasures.xlsx:***   SonarQube扫描的Java代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。涵盖指标的评级以及具体指标原因和代码建议的执行结果。
 - ***results/JSMeasures.xlsx:*** SonarQube扫描的JavaScript代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。
-- ***result/PythonMeasures.xlsx: ***SonarQube扫描的Python代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。
+- ***result/PythonMeasures.xlsx:*** SonarQube扫描的Python代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。
 - ***ScanProject:*** 参与SonarQube扫描的代码建议项目。    
 - ***collector.py:***  这个Python脚本用于爬取所有LeetCode问题链接中满足四种语言的(C, Java, JavaScript, Python)的所有问题，并将问题描述和四种语言下的函数模板存储至AllData.xlsx中，并在Output目录下自动生成代码建议。
 - ***AllData.xlsx:*** 存储脚本爬取的问题描述以及函数模板
