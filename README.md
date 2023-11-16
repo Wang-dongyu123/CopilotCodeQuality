@@ -3,9 +3,9 @@
 - [介绍](#1.介绍)
 - [项目结构及解释](#2.项目结构及解释)
 - [实验结果](#3.实验结果)
-  - [Bug指标](#3.1 Bug指标)
-  - [CodeSmell指标](#3.2 CodeSmell指标)
-  - [复杂度指标](#3.3 复杂度指标)
+  - [Bug指标](#3.1.Bug指标)
+  - [CodeSmell指标](#3.2.CodeSmell指标)
+  - [复杂度指标](#3.3.复杂度指标)
 
 
 
@@ -30,22 +30,22 @@
 └── record.xlsx       
 ```
 
-- ***figure***  : 演示图片
-- ***output*** : 所有的代码建议文件，按照语言和困难程度分类
-- **results/**:   实验结果
-- **results/Complexity.xlsx** :    三种语言代码建议的复杂度以及执行状态统计
-- **results/JavaMeasures.xlsx:**   SonarQube扫描的Java代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。涵盖指标的评级以及具体指标原因和代码建议的执行结果。
-- **results/JSMeasures.xlsx：**SonarQube扫描的JavaScript代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。
-- **result/PythonMeasures.xlsx：**SonarQube扫描的Python代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。
-- ***ScanProject：***参与SonarQube扫描的代码建议项目。    
-- ***collector.py*** :   这个Python脚本用于爬取所有LeetCode问题链接中满足四种语言的(C, Java, JavaScript, Python)的所有问题，并将问题描述和四种语言下的函数模板存储至AllData.xlsx中，并在Output目录下自动生成代码建议。
-- ***AllData.xlsx***: 存储脚本爬取的问题描述以及函数模板
-- ***Links.xlsx：***所有的LeetCode问题链接。
-- ***README.md***:   项目指南
+- ***figure:***演示图片
+- ***output:***  所有的代码建议文件，按照语言和困难程度分类
+- **results/:**   实验结果
+- ***results/Complexity.xlsx:***     三种语言代码建议的复杂度以及执行状态统计
+- ***results/JavaMeasures.xlsx:***   SonarQube扫描的Java代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。涵盖指标的评级以及具体指标原因和代码建议的执行结果。
+- ***results/JSMeasures.xlsx:***SonarQube扫描的JavaScript代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。
+- ***result/PythonMeasures.xlsx:***SonarQube扫描的Python代码建议的Bug以及CodeSmell指标及相应执行状态的统计结果。
+- ***ScanProject:***参与SonarQube扫描的代码建议项目。    
+- ***collector.py:*** 这个Python脚本用于爬取所有LeetCode问题链接中满足四种语言的(C, Java, JavaScript, Python)的所有问题，并将问题描述和四种语言下的函数模板存储至AllData.xlsx中，并在Output目录下自动生成代码建议。
+- ***AllData.xlsx:*** 存储脚本爬取的问题描述以及函数模板
+- ***Links.xlsx:***所有的LeetCode问题链接。
+- ***README.md:*** 项目指南
 
 ## 3.实验结果
 
-### 3.1 Bug指标
+### 3.1.Bug指标
 
 #### 3.1.1 Bug表现情况
 
@@ -55,7 +55,7 @@
 
 ![BugDict](./figure/bugDict.png)
 
-### 3.2 CodeSmell指标
+### 3.2.CodeSmell指标
 
 #### 3.2.1 Java
 
@@ -75,7 +75,7 @@
 
 ![CS_DICT(2)](./figure/CodeSmellDict(2).png)
 
-### 3.3. 复杂度指标
+### 3.3.复杂度指标
 
 ![box_plot](./figure/boxplot.png)
 
